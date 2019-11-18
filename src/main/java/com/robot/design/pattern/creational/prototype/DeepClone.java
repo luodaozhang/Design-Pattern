@@ -2,7 +2,7 @@ package com.robot.design.pattern.creational.prototype;
 
 import java.util.Date;
 
-public class JavaVideo implements Cloneable{
+public class DeepClone implements Cloneable{
 
     public String name;
 
@@ -10,6 +10,9 @@ public class JavaVideo implements Cloneable{
 
     @Override
     protected Object clone() throws CloneNotSupportedException {
-        return super.clone();
+        DeepClone obj = (DeepClone) super.clone();
+        obj.now = (Date) obj.now.clone();
+        return obj;
     }
+
 }
