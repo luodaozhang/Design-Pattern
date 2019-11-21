@@ -8,6 +8,10 @@ public class ShallowClone implements Cloneable{
 
     public Date now;
 
+    public ShallowClone() {
+        System.out.println("constructor");
+    }
+
     @Override
     protected Object clone() throws CloneNotSupportedException {
         return super.clone();
