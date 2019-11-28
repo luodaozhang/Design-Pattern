@@ -1,8 +1,6 @@
 package com.robot.design.pattern.creational.abstractfactory;
 
-/**
- * Created by geely
- */
+
 public class JavaVideo extends Video {
     @Override
     public void produce() {

@@ -1,8 +1,6 @@
 package com.robot.design.pattern.creational.abstractfactory;
 
-/**
- * Created by geely
- */
+
 public class JavaCourseFactory implements CourseFactory {
     @Override
     public Video getVideo() {
