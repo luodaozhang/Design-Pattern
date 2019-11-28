@@ -1,4 +1,4 @@
-#   本示例均来自慕课网geely老师的设计模式教程.
+###### 本示例均来自慕课网geely老师的设计模式教程.
 
 GOF 23 Design Patterns
 
